@@ -1,0 +1,59 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/Users/aydinmisirzada/IdeaProjects/asciiart/src/main/scala/Image/GreyscaleImage.scala, /Users/aydinmisirzada/IdeaProjects/asciiart/src/main/scala/parser/Parser.scala, /Users/aydinmisirzada/IdeaProjects/asciiart/src/main/scala/FileHandler/ExportToFile.scala, /Users/aydinmisirzada/IdeaProjects/asciiart/src/main/scala/Filter/Filter.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Image.GreyscaleImage, parser.Parser, FileHandler.ExportToFile, Filter.Filter)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(Image.GreyscaleImage, parser.Parser, FileHandler.ExportToFile, Filter.Filter)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/aydinmisirzada/IdeaProjects/asciiart/src/main/scala/Image/GreyscaleImage.scala, /Users/aydinmisirzada/IdeaProjects/asciiart/src/main/scala/parser/Parser.scala, /Users/aydinmisirzada/IdeaProjects/asciiart/src/main/scala/FileHandler/ExportToFile.scala, /Users/aydinmisirzada/IdeaProjects/asciiart/src/main/scala/Filter/Filter.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Image.GreyscaleImage, parser.Parser, FileHandler.ExportToFile, Filter.Filter[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 4 Scala sources to /Users/aydinmisirzada/IdeaProjects/asciiart/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.3.5:compile for Scala 2.13.3[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.3.5:compile for Scala 2.13.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5bcb99fa for Scala compiler version 2.13.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/aydinmisirzada/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/aydinmisirzada/IdeaProjects/asciiart/target/scala-2.13/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.238298967 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from FileHandler.ExportToFile...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: FileHandler.ExportToFile[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(FileHandler.ExportToFile)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of main.Main. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(FileHandler.ExportToFile,ModifiedNames(changes = UsedName(finalize,[Default]))) invalidates 1 classes due to The FileHandler.ExportToFile has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(finalize,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(FileHandler.ExportToFile)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Filter.Filter...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Filter.Filter[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Filter.Filter)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Image.GreyscaleImage: Set(UsedName(pixelBrightness,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of ASCIIFIER.ASCIIFIER. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Filter.Filter,ModifiedNames(changes = UsedName(pixelBrightness,[Default]), UsedName(applyBrightness,[Default]))) invalidates 2 classes due to The Filter.Filter has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(pixelBrightness,[Default]), UsedName(applyBrightness,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Filter.Filter)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(Image.GreyscaleImage)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set(Image.GreyscaleImage)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Image.GreyscaleImage[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Filter.Filter by Image.GreyscaleImage[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding ASCIIFIER.ASCIIFIER by Filter.Filter[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding main.Main by ASCIIFIER.ASCIIFIER[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Image.RGBImage by Image.GreyscaleImage[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set(Filter.Filter)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
